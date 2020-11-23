@@ -1,0 +1,19 @@
+Package: test.package
+Title: Load annotation data
+Version: 0.1.0
+Authors@R: 
+    person(given = "First",
+           family = "Last",
+           role = c("aut", "cre"),
+           email = "1178431277@qq.cpm",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Load annotation data from GO database,
+    the data is about annotations of gene or gene products with GO terms.
+License: GPL
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1.9000
+Imports:
+    GOSemSim,
+    AnnotationDbi
